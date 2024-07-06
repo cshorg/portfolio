@@ -71,3 +71,17 @@ export const useTheme = () => {
 
   return context
 }
+
+export default function ThemeButton() {
+  const { theme, setTheme } = useTheme()
+
+  return (
+    <>
+      {theme === "light" ? (
+        <button onClick={() => setTheme("dark")}>dark</button>
+      ) : (
+        <button onClick={() => setTheme("light")}>light</button>
+      )}
+    </>
+  )
+}
