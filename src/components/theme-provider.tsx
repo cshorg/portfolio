@@ -1,4 +1,5 @@
 import { createContext, useContext, useEffect, useState } from "react"
+import { SunIcon, MoonIcon } from "lucide-react"
 
 type Theme = "dark" | "light" | "system"
 
@@ -78,9 +79,19 @@ export default function ThemeButton() {
   return (
     <>
       {theme === "light" ? (
-        <button onClick={() => setTheme("dark")}>dark</button>
+        <button
+          onClick={() => setTheme("dark")}
+          className="flex items-center justify-center size-6"
+        >
+          <MoonIcon size={18} />
+        </button>
       ) : (
-        <button onClick={() => setTheme("light")}>light</button>
+        <button
+          onClick={() => setTheme("light")}
+          className="flex items-center justify-center size-6"
+        >
+          <SunIcon size={18} />
+        </button>
       )}
     </>
   )

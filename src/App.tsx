@@ -1,10 +1,12 @@
-import ThemeButton from "./components/theme-provider"
+import Header from "./components/Header"
+import Projects from "./components/Projects"
 
 function App() {
   return (
-    <div className="w-screen bg-red-500">
-      <ThemeButton />
-    </div>
+    <main className="container flex flex-col justify-center mt-10 font-inter fade-in">
+      <Header />
+      <Projects />
+    </main>
   )
 }
 
