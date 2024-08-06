@@ -1,8 +1,15 @@
 const Footer = () => {
   return (
-    <footer className="max-w-screen-xl w-full absolute bottom-0 h-10 flex items-center justify-between text-xs text-zinc-400">
-      <div>Cole Grohs (@cshorg)</div>
-      <div className="underline">Source</div>
+    <footer className="absolute bottom-0 flex items-center justify-between w-full p-4 text-xs max-w-screen-2xl ">
+      <p className="dark:text-zinc-600 text-zinc-500">
+        Made by Cole Grohs{" "}
+        <a className="text-black cursor-pointer hover:underline dark:text-white">
+          (@cshorg)
+        </a>
+      </p>
+      <a className="text-black hover:underline dark:text-white" href="">
+        Source
+      </a>
     </footer>
   )
 }

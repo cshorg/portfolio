@@ -1,11 +1,10 @@
+import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
-import Header from "./components/Header"
 
-function App() {
+function App({ handleTheme }: any) {
   return (
-    <div className="bg-zinc-950 text-white h-dvh w-full flex justify-center">
-      <Header />
-      <main></main>
+    <div className="flex justify-center w-full text-white bg-white dark:bg-black h-dvh">
+      <Navbar handleTheme={handleTheme} />
       <Footer />
     </div>
   )
