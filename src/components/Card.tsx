@@ -1,8 +1,10 @@
 import { IconBrandGithub, IconOpenLink } from "@irsyadadl/paranoid"
+import { Link } from "react-router-dom"
+import React from "react"
 
 interface CardProps {
   title: string
-  description: string
+  description: string | React.ReactNode
   route: string
   url: string
   github: string
@@ -22,12 +24,12 @@ const Card: React.FC<CardProps> = ({
         {description}
       </p>
       <div className="flex items-center justify-between w-full gap-2 mt-4">
-        <a
-          href={route}
+        <Link
+          to={route}
           className="focus:outline focus:outline-2 focus-visible:outline-2 focus:outline-offset-2 focus:outline-blue-500 text-xs hover:underline dark:hover:bg-zinc-800/50 border-[1px] flex items-center justify-center text-zinc-950 border-zinc-200 hover:bg-zinc-100/50 dark:text-zinc-50 dark:border-zinc-800 rounded-lg h-9 w-full"
         >
           Learn more
-        </a>
+        </Link>
         <button
           onClick={() => window.open(url)}
           className="focus:outline focus:outline-2 focus-visible:outline-2 focus:outline-offset-2 focus:outline-blue-500 text-xs border-[1px] dark:hover:bg-zinc-800/50 transistion ease-in duration-75 text-zinc-950 border-zinc-200 hover:bg-zinc-100/50 dark:text-zinc-50 dark:border-zinc-800 rounded-lg min-h-9 min-w-9 flex items-center justify-center"
