@@ -22,7 +22,7 @@ const Header = ({ handleTheme }: any) => {
   ]
 
   return (
-    <header className="max-w-screen-lg mt-24 ml-36">
+    <header className="max-w-screen-lg mt-20 ml-36">
       <h1 className="max-w-screen-lg text-5xl font-bold leading-snug tracking-tight text-zinc-950 dark:text-zinc-50">
         Hello my name is
         <span className="ml-2 text-zinc-50 bg-zinc-950 dark:bg-zinc-100 dark:text-zinc-950">
@@ -38,7 +38,7 @@ const Header = ({ handleTheme }: any) => {
         </span>
         .
       </h1>
-      <div className="flex items-center gap-2 mt-12">
+      <div className="flex items-center gap-2 mt-6">
         {links.map((link) => (
           <button className="flex focus:outline focus:outline-2 focus-visible:outline-2 focus:outline-offset-2 focus:outline-blue-500 items-center hover:underline gap-1 text-xs border-[1px] text-zinc-950 border-zinc-200 hover:bg-zinc-100/50 dark:text-zinc-50 dark:border-zinc-800 rounded-lg h-9 px-4 dark:hover:bg-zinc-800/50 transition ease-in duration-75 cursor-pointer">
             {link.icon}

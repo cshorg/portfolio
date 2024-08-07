@@ -16,9 +16,9 @@ const Card: React.FC<CardProps> = ({
   github
 }) => {
   return (
-    <div className="border-[1px] w-[250px] h-[220px] rounded-lg text-zinc-950 dark:text-zinc-50 border-zinc-200 dark:border-zinc-800 p-4">
+    <div className="border-[1px] rounded-lg text-zinc-950 dark:text-zinc-50 border-zinc-200 dark:border-zinc-800 p-4">
       <h1 className="text-xl font-bold">{title}</h1>
-      <p className="mt-2 text-sm min-h-[100px] max-h-[100px] line-clamp-[5] overflow-y-hidden">
+      <p className=" mt-2 text-sm min-h-[100px] max-h-[100px] line-clamp-[5] overflow-y-hidden">
         {description}
       </p>
       <div className="flex items-center justify-between w-full gap-2 mt-4">
