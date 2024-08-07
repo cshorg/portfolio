@@ -53,7 +53,7 @@ const Home = () => {
   ]
 
   return (
-    <div className="grid max-w-screen-lg grid-cols-3 gap-4 mt-2">
+    <div className="grid max-w-screen-lg gap-4 2xl:mt-2 sm:grid-cols-2 lg:grid-cols-3">
       {projects.map((project) => (
         <Card
           title={project.title}

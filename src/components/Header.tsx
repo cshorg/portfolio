@@ -28,8 +28,8 @@ const Header = ({ handleTheme }: any) => {
   ]
 
   return (
-    <header className="max-w-screen-lg mt-20 ml-36">
-      <h1 className="max-w-screen-lg text-5xl font-bold leading-snug tracking-tight text-zinc-950 dark:text-zinc-50">
+    <header className="max-w-screen-lg mx-4 mt-4 md:mt-6 md:mx-10 lg:mt-10 lg:ml-20 2xl:mt-20 2xl:ml-36">
+      <h1 className="max-w-screen-lg text-3xl font-bold leading-snug tracking-tight md:leading-snug md:text-4xl lg:leading-snug lg:text-5xl text-zinc-950 dark:text-zinc-50">
         Hello my name is
         <span className="ml-2 text-zinc-50 bg-zinc-950 dark:bg-zinc-100 dark:text-zinc-950">
           Cole Grohs
@@ -44,7 +44,7 @@ const Header = ({ handleTheme }: any) => {
         </span>
         .
       </h1>
-      <div className="flex items-center gap-2 mt-6">
+      <div className="flex flex-wrap items-center gap-2 mt-4 lg:mt-6">
         {links.map((link) => (
           <button
             onClick={() => window.open(link.url)}
