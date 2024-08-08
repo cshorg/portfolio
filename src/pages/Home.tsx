@@ -49,13 +49,22 @@ const Home = () => {
       route: "/complib",
       url: "https://www.npmjs.com/package/complib-ui",
       github: "https://github.com/cshorg/complib-ui"
+    },
+    {
+      title: "complib-ui",
+      description:
+        "TFT-Forge is amde to be a social platform for users playing the game Team Fight Tactics. It allows users to find optimal builds and find current metas.",
+      route: "/complib",
+      url: "https://www.npmjs.com/package/complib-ui",
+      github: "https://github.com/cshorg/complib-ui"
     }
   ]
 
   return (
-    <div className="grid max-w-screen-lg gap-4 2xl:mt-2 sm:grid-cols-2 lg:grid-cols-3">
+    <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
       {projects.map((project) => (
         <Card
+          key={project.title}
           title={project.title}
           description={project.description}
           route={project.route}
