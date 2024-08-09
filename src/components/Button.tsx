@@ -2,7 +2,7 @@ import React from "react"
 import { tv, VariantProps } from "tailwind-variants"
 
 const button = tv({
-  base: "relative rounded-lg border-[1px] border-zinc-950 dark:border-zinc-500 dark:text-white flex items-center justify-center text-xs font-semibold text-zinc-950 transition-all hover:-translate-x-1 hover:-translate-y-1 hover:shadow-[4px_4px_0_rgb(41,37,36)] dark:hover:shadow-[4px_4px_0_rgb(113,113,122)] hover:after:absolute hover:after:-bottom-2 hover:after:-right-2 hover:after:left-0 hover:after:top-0 hover:after:-z-10",
+  base: "relative rounded-lg border-[1px] border-zinc-950 bg-zinc-50 dark:bg-zinc-950 dark:border-zinc-500 dark:text-white flex items-center justify-center text-xs font-semibold text-zinc-950 transition-all hover:-translate-x-1 hover:-translate-y-1 hover:shadow-[4px_4px_0_rgb(41,37,36)] dark:hover:shadow-[4px_4px_0_rgb(113,113,122)] hover:after:absolute hover:after:-bottom-2 hover:after:-right-2 hover:after:left-0 hover:after:top-0 hover:after:-z-10",
   variants: {
     size: {
       sm: "h-7 text-xs",

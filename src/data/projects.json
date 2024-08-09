@@ -5,7 +5,7 @@
     "route": "/wordle-clone",
     "url": "https://wordle-clone-cshorg.vercel.app/",
     "github": "https://github.com/cshorg/wordle-clone",
-    "color": "green"
+    "color": "yellow"
   },
   {
     "title": "TFT-Forge",
@@ -13,7 +13,7 @@
     "route": "/tft-forge",
     "url": "https://tft-forge.vercel.app/",
     "github": "https://github.com/cshorg/tft-forge",
-    "color": "purple"
+    "color": "red"
   },
   {
     "title": "Websockets with Go",
@@ -29,22 +29,22 @@
     "route": "/complib",
     "url": "https://www.npmjs.com/package/complib-ui",
     "github": "https://github.com/cshorg/complib-ui",
-    "color": "salmon"
-  },
-  {
-    "title": "complib-ui",
-    "description": "TFT-Forge is made to be a social platform for users playing the game Team Fight Tactics. It allows users to find optimal builds and find current metas.",
-    "route": "/complib",
-    "url": "https://www.npmjs.com/package/complib-ui",
-    "github": "https://github.com/cshorg/complib-ui",
-    "color": "yellow"
-  },
-  {
-    "title": "complib-ui",
-    "description": "TFT-Forge is made to be a social platform for users playing the game Team Fight Tactics. It allows users to find optimal builds and find current metas.",
-    "route": "/complib",
-    "url": "https://www.npmjs.com/package/complib-ui",
-    "github": "https://github.com/cshorg/complib-ui",
     "color": "purple"
+  },
+  {
+    "title": "complib-ui",
+    "description": "TFT-Forge is made to be a social platform for users playing the game Team Fight Tactics. It allows users to find optimal builds and find current metas.",
+    "route": "/complib",
+    "url": "https://www.npmjs.com/package/complib-ui",
+    "github": "https://github.com/cshorg/complib-ui",
+    "color": "blue"
+  },
+  {
+    "title": "complib-ui",
+    "description": "TFT-Forge is made to be a social platform for users playing the game Team Fight Tactics. It allows users to find optimal builds and find current metas.",
+    "route": "/complib",
+    "url": "https://www.npmjs.com/package/complib-ui",
+    "github": "https://github.com/cshorg/complib-ui",
+    "color": "green"
   }
 ]
