@@ -4,41 +4,47 @@
     "description": "Recreation of the popular game Wordle. In this project I learned to utilize localstorage for storing wins and losses for returning users. The localstorage also stores which theme the user set so its the same when they come back. I then learned to use eventListeners for key inputs to allow users to use keyboard strokes instead of clicking on the keyboard.",
     "route": "/wordle-clone",
     "url": "https://wordle-clone-cshorg.vercel.app/",
-    "github": "https://github.com/cshorg/wordle-clone"
+    "github": "https://github.com/cshorg/wordle-clone",
+    "color": "green"
   },
   {
     "title": "TFT-Forge",
     "description": "TFT-Forge is made to be a social platform for users playing the game Team Fight Tactics. It allows users to find optimal builds and find current metas.",
     "route": "/tft-forge",
     "url": "https://tft-forge.vercel.app/",
-    "github": "https://github.com/cshorg/tft-forge"
+    "github": "https://github.com/cshorg/tft-forge",
+    "color": "purple"
   },
   {
     "title": "Websockets with Go",
     "description": "It allows users to find optimal builds and find current metas.",
     "route": "/go-websocket",
     "url": "#",
-    "github": "https://github.com/cshorg/websocket-chat"
+    "github": "https://github.com/cshorg/websocket-chat",
+    "color": "orange"
   },
   {
     "title": "complib-ui",
     "description": "TFT-Forge is made to be a social platform for users playing the game Team Fight Tactics. It allows users to find optimal builds and find current metas.",
     "route": "/complib",
     "url": "https://www.npmjs.com/package/complib-ui",
-    "github": "https://github.com/cshorg/complib-ui"
+    "github": "https://github.com/cshorg/complib-ui",
+    "color": "salmon"
   },
   {
     "title": "complib-ui",
     "description": "TFT-Forge is made to be a social platform for users playing the game Team Fight Tactics. It allows users to find optimal builds and find current metas.",
     "route": "/complib",
     "url": "https://www.npmjs.com/package/complib-ui",
-    "github": "https://github.com/cshorg/complib-ui"
+    "github": "https://github.com/cshorg/complib-ui",
+    "color": "yellow"
   },
   {
     "title": "complib-ui",
     "description": "TFT-Forge is made to be a social platform for users playing the game Team Fight Tactics. It allows users to find optimal builds and find current metas.",
     "route": "/complib",
     "url": "https://www.npmjs.com/package/complib-ui",
-    "github": "https://github.com/cshorg/complib-ui"
+    "github": "https://github.com/cshorg/complib-ui",
+    "color": "purple"
   }
 ]

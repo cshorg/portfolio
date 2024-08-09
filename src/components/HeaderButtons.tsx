@@ -8,6 +8,8 @@ import {
   IconMoon
 } from "@irsyadadl/paranoid"
 
+import Button from "./Button"
+
 const HeaderButtons = ({ handleTheme }: any) => {
   const links = [
     {
@@ -30,19 +32,21 @@ const HeaderButtons = ({ handleTheme }: any) => {
   return (
     <div className="flex flex-wrap items-center gap-2 mt-4 lg:mt-6">
       {links.map((link) => (
-        <button
+        <Button
           key={link.label}
+          fullWidth={false}
+          className="gap-1 px-4"
           onClick={() => window.open(link.url)}
-          className="flex focus:outline focus:outline-2 focus-visible:outline-2 focus:outline-offset-2 focus:outline-blue-500 items-center hover:underline gap-1 text-xs border-[1px] text-zinc-950 border-zinc-200 hover:bg-zinc-100/50 dark:text-zinc-50 dark:border-zinc-800 rounded-lg h-9 px-4 dark:hover:bg-zinc-800/50 transition ease-in duration-75 cursor-pointer"
         >
           {link.icon}
           {link.label}
-        </button>
+        </Button>
       ))}
+
       <a
         aria-label="Resume"
         type="button"
-        className="flex focus:outline focus:outline-2 focus-visible:outline-2 focus:outline-offset-2 focus:outline-blue-500 items-center hover:underline gap-1 text-xs border-[1px] text-zinc-950 border-zinc-200 hover:bg-zinc-100/50 dark:text-zinc-50 dark:border-zinc-800 rounded-lg h-9 px-4 dark:hover:bg-zinc-800/50 transition ease-in duration-75 cursor-pointer"
+        className="relative rounded-lg h-9 px-4 border-[1px] border-zinc-950 dark:border-zinc-500 dark:text-white flex items-center justify-center text-xs font-semibold text-zinc-950 transition-all hover:-translate-x-1 hover:-translate-y-1 hover:shadow-[4px_4px_0_rgb(41,37,36)] dark:hover:shadow-[4px_4px_0_rgb(113,113,122)] hover:after:absolute hover:after:-bottom-2 hover:after:-right-2 hover:after:left-0 hover:after:top-0 hover:after:-z-10"
         href="/Resume.pdf"
         download="Cole_Grohs_Resume.pdf"
       >
@@ -53,16 +57,13 @@ const HeaderButtons = ({ handleTheme }: any) => {
         aria-label="Email"
         type="button"
         href="mailto:Colegrohs@outlook.com"
-        className="flex focus:outline focus:outline-2 focus-visible:outline-2 focus:outline-offset-2 focus:outline-blue-500 items-center hover:underline gap-1 text-xs border-[1px] text-zinc-950 border-zinc-200 hover:bg-zinc-100/50 dark:text-zinc-50 dark:border-zinc-800 rounded-lg h-9 px-4 dark:hover:bg-zinc-800/50 transition ease-in duration-75 cursor-pointer"
+        className="relative rounded-lg h-9 px-4 border-[1px] border-zinc-950 dark:border-zinc-500 dark:text-white flex items-center justify-center text-xs font-semibold text-zinc-950 transition-all hover:-translate-x-1 hover:-translate-y-1 hover:shadow-[4px_4px_0_rgb(41,37,36)] dark:hover:shadow-[4px_4px_0_rgb(113,113,122)] hover:after:absolute hover:after:-bottom-2 hover:after:-right-2 hover:after:left-0 hover:after:top-0 hover:after:-z-10"
       >
         <IconMail width={18} />
         Email
       </a>
       <div className="w-[1px] h-7 bg-zinc-200 dark:bg-zinc-800 mx-1" />
-      <button
-        onClick={handleTheme}
-        className="flex items-center justify-center focus:outline focus:outline-2 focus-visible:outline-2 focus:outline-offset-2 focus:outline-blue-500 border-[1px] text-zinc-950 border-zinc-200 hover:bg-zinc-100/50 dark:text-zinc-50 dark:border-zinc-800 rounded-lg size-9 dark:hover:bg-zinc-800/50 transition ease-in duration-75 cursor-pointer"
-      >
+      <Button size="icon" onClick={handleTheme}>
         <IconSun
           width={18}
           className="transition-all scale-100 rotate-0 dark:-rotate-90 dark:scale-0"
@@ -71,7 +72,7 @@ const HeaderButtons = ({ handleTheme }: any) => {
           width={18}
           className="absolute transition-all scale-0 rotate-90 dark:rotate-0 dark:scale-100"
         />
-      </button>
+      </Button>
     </div>
   )
 }
