@@ -1,10 +1,10 @@
 import { Routes, Route } from "react-router-dom"
 import MainLayout from "./layouts/MainLayout"
 import Home from "./pages/Home"
-import Wordle from "./pages/projects/Wordle"
-import TftForge from "./pages/projects/TftForge"
-import Complib from "./pages/projects/Complib"
-import GoWebsocket from "./pages/projects/GoWebsocket"
+import Wordle from "./pages/Wordle"
+import TftForge from "./pages/TftForge"
+import Complib from "./pages/Complib"
+import GoWebsocket from "./pages/GoWebsocket"
 import BlogLayout from "./layouts/BlogLayout"
 
 function App({ handleTheme }: any) {

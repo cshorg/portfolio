@@ -28,7 +28,7 @@ const Card: React.FC<CardProps> = ({
           to={route}
           className="focus:outline focus:outline-2 focus-visible:outline-2 focus:outline-offset-2 focus:outline-blue-500 text-xs hover:underline dark:hover:bg-zinc-800/50 border-[1px] flex items-center justify-center text-zinc-950 border-zinc-200 hover:bg-zinc-100/50 dark:text-zinc-50 dark:border-zinc-800 rounded-lg h-9 w-full"
         >
-          Learn more
+          Read more
         </Link>
         <button
           onClick={() => window.open(url)}
