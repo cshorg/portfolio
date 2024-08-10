@@ -2,7 +2,7 @@ import React from "react"
 import { useEffect, useState } from "react"
 
 const ThemeToggle = ({ children }: any) => {
-  const [theme, setTheme] = useState("dark")
+  const [theme, setTheme] = useState("")
 
   useEffect(() => {
     if (theme === "dark") {
