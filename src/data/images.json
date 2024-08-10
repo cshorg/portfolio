@@ -24,12 +24,8 @@
     "url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
   },
   {
-    "imageName": "Node.js",
-    "url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg"
-  },
-  {
-    "imageName": "Redux",
-    "url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg"
+    "imageName": "Vite",
+    "url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg"
   },
   {
     "imageName": "Git",
@@ -38,25 +34,5 @@
   {
     "imageName": "GitHub",
     "url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
-  },
-  {
-    "imageName": "npm",
-    "url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg"
-  },
-  {
-    "imageName": "Storybook",
-    "url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/storybook/storybook-original.svg"
-  },
-  {
-    "imageName": "Figma",
-    "url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"
-  },
-  {
-    "imageName": "Vitest",
-    "url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitest/vitest-original.svg"
-  },
-  {
-    "imageName": "Docker",
-    "url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-plain.svg"
   }
 ]

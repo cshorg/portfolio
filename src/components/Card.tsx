@@ -23,9 +23,9 @@ const card = tv({
     bgColor: {
       green: "bg-green-400",
       indigo: "bg-indigo-400",
-      yellow: "bg-yellow-400",
-      orange: "bg-orange-400",
-      red: "bg-red-500",
+      yellow: "bg-yellow-300",
+      orange: "bg-orange-300",
+      red: "bg-red-400",
       blue: "bg-blue-400",
       sky: "bg-sky-400"
     }
