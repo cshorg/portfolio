@@ -14,7 +14,7 @@ const Home = () => {
   const maxY = 300
 
   return (
-    <div className="relative grid gap-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
+    <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
       {projects.map((project, index) => {
         const { x, y } =
           typeof window !== "undefined" && window.innerWidth >= 768
@@ -22,7 +22,7 @@ const Home = () => {
             : { x: 0, y: 0 }
 
         return (
-          <Draggable key={index} bounds=".relative" defaultPosition={{ x, y }}>
+          <Draggable key={index} bounds=".layout" defaultPosition={{ x, y }}>
             <div>
               <Card
                 title={project.title}

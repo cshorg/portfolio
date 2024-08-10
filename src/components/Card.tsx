@@ -4,7 +4,6 @@ import { Link } from "react-router-dom"
 import { IconBrandGithub, IconOpenLink } from "@irsyadadl/paranoid"
 import { tv } from "tailwind-variants"
 
-// Generate a random rotation class
 const getRandomRotationClass = () => {
   const rotations = [
     "rotate-2",
@@ -19,16 +18,16 @@ const getRandomRotationClass = () => {
 }
 
 const card = tv({
-  base: "border-[1px] cursor-move shadow-sm rounded-lg text-zinc-950 dark:text-white border-zinc-900 dark:border-zinc-100 p-4 shadow-md",
+  base: "border-[1px] cursor-move shadow-sm rounded-lg text-zinc-950 dark:text-white border-zinc-950 dark:border-zinc-950 p-4 shadow-md",
   variants: {
     bgColor: {
-      green: "bg-green-300",
-      indigo: "bg-indigo-300",
-      yellow: "bg-yellow-300",
-      orange: "bg-orange-300",
-      red: "bg-red-400",
-      blue: "bg-blue-300",
-      sky: "bg-sky-300"
+      green: "bg-green-400",
+      indigo: "bg-indigo-400",
+      yellow: "bg-yellow-400",
+      orange: "bg-orange-400",
+      red: "bg-red-500",
+      blue: "bg-blue-400",
+      sky: "bg-sky-400"
     }
   },
   defaultVariants: {
