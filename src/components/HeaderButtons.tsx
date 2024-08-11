@@ -45,21 +45,21 @@ const HeaderButtons = ({ handleTheme }: any) => {
       <a
         aria-label="Resume"
         type="button"
-        className="relative rounded-lg h-9 px-4 bg-zinc-50  border-[1px] border-zinc-950  dark:text-zinc-950 flex items-center justify-center text-xs font-semibold text-zinc-950 transition-all hover:-translate-x-1 hover:-translate-y-1 hover:shadow-[4px_4px_0_rgb(41,37,36)] dark:hover:shadow-[4px_4px_0_rgb(41,37,36)] hover:after:absolute hover:after:-bottom-2 hover:after:-right-2 hover:after:left-0 hover:after:top-0 hover:after:-z-10"
+        className="relative rounded-lg h-9 px-4 bg-zinc-50 border-[1px] border-zinc-950 dark:text-zinc-950 flex items-center justify-center gap-1 text-xs font-semibold text-zinc-950 transition-all hover:-translate-x-1 hover:-translate-y-1 hover:shadow-[4px_4px_0_rgb(41,37,36)] dark:hover:shadow-[4px_4px_0_rgb(41,37,36)] hover:after:absolute hover:after:-bottom-2 hover:after:-right-2 hover:after:left-0 hover:after:top-0 hover:after:-z-10"
         href="/Resume.pdf"
         download="Cole_Grohs_Resume.pdf"
       >
         <IconFileDownload width={18} />
-        Resume
+        Download Resume
       </a>
       <a
         aria-label="Email"
         type="button"
         href="mailto:Colegrohs@outlook.com"
-        className="relative rounded-lg h-9 bg-zinc-50  px-4 border-[1px] border-zinc-950  dark:text-zinc-950 flex items-center justify-center text-xs font-semibold text-zinc-950 transition-all hover:-translate-x-1 hover:-translate-y-1 hover:shadow-[4px_4px_0_rgb(41,37,36)] dark:hover:shadow-[4px_4px_0_rgb(41,37,36)] hover:after:absolute hover:after:-bottom-2 hover:after:-right-2 hover:after:left-0 hover:after:top-0 hover:after:-z-10"
+        className="relative rounded-lg h-9 px-4 bg-zinc-50 border-[1px] border-zinc-950 dark:text-zinc-950 flex items-center justify-center gap-1 text-xs font-semibold text-zinc-950 transition-all hover:-translate-x-1 hover:-translate-y-1 hover:shadow-[4px_4px_0_rgb(41,37,36)] dark:hover:shadow-[4px_4px_0_rgb(41,37,36)] hover:after:absolute hover:after:-bottom-2 hover:after:-right-2 hover:after:left-0 hover:after:top-0 hover:after:-z-10"
       >
         <IconMail width={18} />
-        Email
+        Email Me
       </a>
       <div className="w-[1px] h-7 bg-zinc-200 dark:bg-zinc-800 mx-1" />
       <Button size="icon" onClick={handleTheme}>
