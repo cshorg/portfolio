@@ -21,7 +21,6 @@ const Complib = () => {
         <div className="mt-20">
           <h1 className="text-5xl font-bold leading-snug">Complib</h1>
           <div className="flex items-center gap-2 mt-2">
-            <p className="text-xs font-semibold"> Used</p>
             {filteredImages.map((img) => (
               <Tooltip label={img.imageName} position="bottom">
                 <img
@@ -41,26 +40,7 @@ const Complib = () => {
           Why I created complib.
         </header>
         <article>
-          Back in the 1990’s, I heard about a Mega Man game for the Sega Genesis
-          system. As I didn’t have a Sega Genesis and was an avid Mega Man fan,
-          I was quite jealous. It would be some years later that I investigated
-          this game further and discovered that it was never physically released
-          in the US. I then spent about a decade checking in on its availability
-          with no luck (including trying to find a handheld loaded with Sega
-          games that inexplicably included Wily Wars). I had nearly given up
-          when it was announced as part of the lineup on Sega’s answer to the
-          NES Classic Edition, the Sega Genesis Mini. Recently, after having
-          played parts of it since getting the Mini, I finally sat down and
-          played it through to the end. (If you’re interested in reading more
-          about the development and release of Mega Man: The Wily Wars, feel
-          free to check out my Retrospection post on this game.) The Set-up: You
-          are Mega Man. Former lab assistant to Dr. Light, now converted to a
-          super fighting robot tasked with stopping the nefarious Dr. Wily.
-          Gifted with the ability to use the weapons of your defeated foes, you
-          set out to…um….stop the nefarious Dr. Wily. Technically speaking, Wily
-          Wars is a sequel to the original three games, not actually a remake.
-          Dr. Wily has traveled to the past in an attempt to once again defeat
-          Mega Man, putting him through the exact same fights again because
+          a
           <img
             src="./blog-header-image.jpg"
             alt="blog-image"
