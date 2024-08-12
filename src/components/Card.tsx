@@ -38,7 +38,7 @@ const card = tv({
 interface CardProps {
   title: string
   description: string | React.ReactNode
-  route: string
+  route?: string
   url: string
   github: string
   color: any
@@ -48,7 +48,7 @@ interface CardProps {
 const Card: React.FC<CardProps> = ({
   title,
   description,
-  route,
+  route = "/",
   url,
   github,
   color,
@@ -63,7 +63,7 @@ const Card: React.FC<CardProps> = ({
         {description}
       </p>
       <div className="flex items-center justify-between w-full gap-2 mt-4">
-        <Link className="w-full" to="/">
+        <Link className="w-full" to={route}>
           <Button className="hover:underline">Read Me</Button>
         </Link>
         <Button size="icon" onClick={() => window.open(url)}>
