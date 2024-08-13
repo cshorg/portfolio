@@ -1,6 +1,6 @@
 import React from "react"
 import Button from "./Button"
-import { Link, useNavigate } from "react-router-dom"
+import { useNavigate } from "react-router-dom"
 import { IconBrandGithub, IconOpenLink } from "@irsyadadl/paranoid"
 import { tv } from "tailwind-variants"
 

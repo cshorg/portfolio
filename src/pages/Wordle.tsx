@@ -22,76 +22,13 @@ const Wordle = () => {
           ))}
         </div>
         <article className="mt-4 text-zinc-950 dark:text-zinc-50">
-          Have you ever wondered why we yawn? Yawning is actually our body's way
-          of getting more oxygen. When we are tired or bored our brain sends a
-          signal to take in a deep breath to wake us up. As we yawn our muscles
-          stretch and our heart rate increases helping us feel more alert. So
-          next time you catch yourself yawning remember that your body is just
-          trying to give you a little energy boost!
-        </article>
-        <article className="mt-4 text-zinc-950 dark:text-zinc-50">
-          Have you ever wondered why we yawn? Yawning is actually our body's way
-          of getting more oxygen. When we are tired or bored our brain sends a
-          signal to take in a deep breath to wake us up. As we yawn our muscles
-          stretch and our heart rate increases helping us feel more alert. So
-          next time you catch yourself yawning remember that your body is just
-          trying to give you a little energy boost!
-        </article>
-        <article className="mt-4 text-zinc-950 dark:text-zinc-50">
-          Have you ever wondered why we yawn? Yawning is actually our body's way
-          of getting more oxygen. When we are tired or bored our brain sends a
-          signal to take in a deep breath to wake us up. As we yawn our muscles
-          stretch and our heart rate increases helping us feel more alert. So
-          next time you catch yourself yawning remember that your body is just
-          trying to give you a little energy boost!
-        </article>
-        <article className="mt-4 text-zinc-950 dark:text-zinc-50">
-          Have you ever wondered why we yawn? Yawning is actually our body's way
-          of getting more oxygen. When we are tired or bored our brain sends a
-          signal to take in a deep breath to wake us up. As we yawn our muscles
-          stretch and our heart rate increases helping us feel more alert. So
-          next time you catch yourself yawning remember that your body is just
-          trying to give you a little energy boost!
-        </article>
-        <article className="mt-4 text-zinc-950 dark:text-zinc-50">
-          Have you ever wondered why we yawn? Yawning is actually our body's way
-          of getting more oxygen. When we are tired or bored our brain sends a
-          signal to take in a deep breath to wake us up. As we yawn our muscles
-          stretch and our heart rate increases helping us feel more alert. So
-          next time you catch yourself yawning remember that your body is just
-          trying to give you a little energy boost!
-        </article>
-        <article className="mt-4 text-zinc-950 dark:text-zinc-50">
-          Have you ever wondered why we yawn? Yawning is actually our body's way
-          of getting more oxygen. When we are tired or bored our brain sends a
-          signal to take in a deep breath to wake us up. As we yawn our muscles
-          stretch and our heart rate increases helping us feel more alert. So
-          next time you catch yourself yawning remember that your body is just
-          trying to give you a little energy boost!
-        </article>
-        <article className="mt-4 text-zinc-950 dark:text-zinc-50">
-          Have you ever wondered why we yawn? Yawning is actually our body's way
-          of getting more oxygen. When we are tired or bored our brain sends a
-          signal to take in a deep breath to wake us up. As we yawn our muscles
-          stretch and our heart rate increases helping us feel more alert. So
-          next time you catch yourself yawning remember that your body is just
-          trying to give you a little energy boost!
-        </article>
-        <article className="mt-4 text-zinc-950 dark:text-zinc-50">
-          Have you ever wondered why we yawn? Yawning is actually our body's way
-          of getting more oxygen. When we are tired or bored our brain sends a
-          signal to take in a deep breath to wake us up. As we yawn our muscles
-          stretch and our heart rate increases helping us feel more alert. So
-          next time you catch yourself yawning remember that your body is just
-          trying to give you a little energy boost!
-        </article>
-        <article className="mt-4 text-zinc-950 dark:text-zinc-50">
-          Have you ever wondered why we yawn? Yawning is actually our body's way
-          of getting more oxygen. When we are tired or bored our brain sends a
-          signal to take in a deep breath to wake us up. As we yawn our muscles
-          stretch and our heart rate increases helping us feel more alert. So
-          next time you catch yourself yawning remember that your body is just
-          trying to give you a little energy boost!
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
         </article>
       </div>
     </div>
