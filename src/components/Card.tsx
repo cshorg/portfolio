@@ -18,7 +18,7 @@ const getRandomRotationClass = () => {
 }
 
 const card = tv({
-  base: "border-[1px] z-10 cursor-move shadow-sm rounded-lg text-zinc-950 dark:text-zinc-950 border-zinc-950 dark:border-zinc-950 p-4 shadow-md",
+  base: "border-[1px] z-50 md:cursor-move shadow-sm rounded-lg text-zinc-950 dark:text-zinc-950 border-zinc-950 dark:border-zinc-950 p-4 shadow-md",
   variants: {
     bgColor: {
       green: "bg-green-400",

@@ -34,5 +34,17 @@
   {
     "imageName": "GitHub",
     "url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+  },
+  {
+    "imageName": "NextJs",
+    "url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original-wordmark.svg"
+  },
+  {
+    "imageName": "Npm",
+    "url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg" 
+  },
+  {
+    "imageName": "Go",
+    "url":"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg" 
   }
 ]

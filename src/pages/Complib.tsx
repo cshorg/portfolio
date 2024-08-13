@@ -1,51 +1,97 @@
-import Button from "../components/Button"
 import Tooltip from "../components/Tooltip"
 import images from "../data/images.json"
-import { Link } from "react-router-dom"
 
 const Complib = () => {
-  const languages = ["React", "JavaScript", "Vite", "TailwindCSS"]
+  const languages = ["React", "TypeScript", "Vite", "TailwindCSS", "Npm"]
 
   const filteredImages = images.filter((img) =>
     languages.includes(img.imageName)
   )
 
   return (
-    <div className="flex w-full min-h-screen">
-      <div className="w-1/2 px-4 pt-4 md:pt-6 md:px-10 lg:pl-20 2xl:px-36 2xl:pt-20 bg-zinc-50">
-        <Link to="/">
-          <Button fullWidth={false} className="px-8">
-            Back
-          </Button>
-        </Link>
-        <div className="mt-20">
-          <h1 className="text-5xl font-bold leading-snug">Complib</h1>
-          <div className="flex items-center gap-2 mt-2">
-            {filteredImages.map((img) => (
-              <Tooltip label={img.imageName} position="bottom">
-                <img
-                  key={img.imageName}
-                  src={img.url}
-                  alt={img.imageName}
-                  className="size-7"
-                />
-              </Tooltip>
-            ))}
-          </div>
+    <div className="flex justify-center w-full">
+      <div className="w-full max-w-screen-md overflow-x-visible overflow-y-auto">
+        <h1 className="mt-4 text-3xl font-bold tracking-tight lg:mt-0 lg:text-5xl text-zinc-950 dark:text-zinc-50">
+          Component Libraries
+        </h1>
+        <div className="flex items-center gap-4 mt-4">
+          {filteredImages.map((img) => (
+            <Tooltip label={img.imageName} position="bottom">
+              <img src={img.url} alt={img.imageName} className="size-6" />
+            </Tooltip>
+          ))}
         </div>
-      </div>
-
-      <div className="w-1/2 max-h-screen px-4 pt-4 overflow-y-auto text-white md:pt-6 md:px-10 lg:pl-20 2xl:px-36 2xl:pt-20 bg-zinc-950">
-        <header className="text-lg font-semibold">
-          Why I created complib.
-        </header>
-        <article>
-          a
-          <img
-            src="./blog-header-image.jpg"
-            alt="blog-image"
-            className="my-6"
-          />
+        <article className="mt-4 text-zinc-950 dark:text-zinc-50">
+          Have you ever wondered why we yawn? Yawning is actually our body's way
+          of getting more oxygen. When we are tired or bored our brain sends a
+          signal to take in a deep breath to wake us up. As we yawn our muscles
+          stretch and our heart rate increases helping us feel more alert. So
+          next time you catch yourself yawning remember that your body is just
+          trying to give you a little energy boost!
+        </article>
+        <article className="mt-4 text-zinc-950 dark:text-zinc-50">
+          Have you ever wondered why we yawn? Yawning is actually our body's way
+          of getting more oxygen. When we are tired or bored our brain sends a
+          signal to take in a deep breath to wake us up. As we yawn our muscles
+          stretch and our heart rate increases helping us feel more alert. So
+          next time you catch yourself yawning remember that your body is just
+          trying to give you a little energy boost!
+        </article>
+        <article className="mt-4 text-zinc-950 dark:text-zinc-50">
+          Have you ever wondered why we yawn? Yawning is actually our body's way
+          of getting more oxygen. When we are tired or bored our brain sends a
+          signal to take in a deep breath to wake us up. As we yawn our muscles
+          stretch and our heart rate increases helping us feel more alert. So
+          next time you catch yourself yawning remember that your body is just
+          trying to give you a little energy boost!
+        </article>
+        <article className="mt-4 text-zinc-950 dark:text-zinc-50">
+          Have you ever wondered why we yawn? Yawning is actually our body's way
+          of getting more oxygen. When we are tired or bored our brain sends a
+          signal to take in a deep breath to wake us up. As we yawn our muscles
+          stretch and our heart rate increases helping us feel more alert. So
+          next time you catch yourself yawning remember that your body is just
+          trying to give you a little energy boost!
+        </article>
+        <article className="mt-4 text-zinc-950 dark:text-zinc-50">
+          Have you ever wondered why we yawn? Yawning is actually our body's way
+          of getting more oxygen. When we are tired or bored our brain sends a
+          signal to take in a deep breath to wake us up. As we yawn our muscles
+          stretch and our heart rate increases helping us feel more alert. So
+          next time you catch yourself yawning remember that your body is just
+          trying to give you a little energy boost!
+        </article>
+        <article className="mt-4 text-zinc-950 dark:text-zinc-50">
+          Have you ever wondered why we yawn? Yawning is actually our body's way
+          of getting more oxygen. When we are tired or bored our brain sends a
+          signal to take in a deep breath to wake us up. As we yawn our muscles
+          stretch and our heart rate increases helping us feel more alert. So
+          next time you catch yourself yawning remember that your body is just
+          trying to give you a little energy boost!
+        </article>
+        <article className="mt-4 text-zinc-950 dark:text-zinc-50">
+          Have you ever wondered why we yawn? Yawning is actually our body's way
+          of getting more oxygen. When we are tired or bored our brain sends a
+          signal to take in a deep breath to wake us up. As we yawn our muscles
+          stretch and our heart rate increases helping us feel more alert. So
+          next time you catch yourself yawning remember that your body is just
+          trying to give you a little energy boost!
+        </article>
+        <article className="mt-4 text-zinc-950 dark:text-zinc-50">
+          Have you ever wondered why we yawn? Yawning is actually our body's way
+          of getting more oxygen. When we are tired or bored our brain sends a
+          signal to take in a deep breath to wake us up. As we yawn our muscles
+          stretch and our heart rate increases helping us feel more alert. So
+          next time you catch yourself yawning remember that your body is just
+          trying to give you a little energy boost!
+        </article>
+        <article className="mt-4 text-zinc-950 dark:text-zinc-50">
+          Have you ever wondered why we yawn? Yawning is actually our body's way
+          of getting more oxygen. When we are tired or bored our brain sends a
+          signal to take in a deep breath to wake us up. As we yawn our muscles
+          stretch and our heart rate increases helping us feel more alert. So
+          next time you catch yourself yawning remember that your body is just
+          trying to give you a little energy boost!
         </article>
       </div>
     </div>

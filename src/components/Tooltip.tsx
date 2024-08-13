@@ -8,7 +8,7 @@ interface TooltipProps {
 
 const Tooltip: React.FC<TooltipProps> = ({ children, label, position }) => {
   return (
-    <div className="relative inline-block cursor-pointer group">
+    <div className="relative inline-block cursor-pointer group overflow">
       {children}
       <span
         className={`${
