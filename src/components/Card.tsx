@@ -39,7 +39,7 @@ interface CardProps {
   title: string
   description: string | React.ReactNode
   route?: string
-  url: string
+  url?: string
   github: string
   color: any
   className?: string
@@ -85,13 +85,16 @@ const Card: React.FC<CardProps> = ({
         >
           Read Me
         </Button>
-        <Button
-          size="icon"
-          onClick={() => window.open(url)}
-          onTouchStart={() => window.open(url)}
-        >
-          <IconOpenLink width={18} />
-        </Button>
+        {url && (
+          <Button
+            size="icon"
+            onClick={() => window.open(url)}
+            onTouchStart={() => window.open(url)}
+          >
+            <IconOpenLink width={18} />
+          </Button>
+        )}
+
         <Button
           size="icon"
           onClick={() => window.open(github)}

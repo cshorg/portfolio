@@ -19,7 +19,6 @@
     "title": "Websockets with Go",
     "description": "Learning to use go and create websockets to connect to my react frontend.",
     "route": "/go-websocket",
-    "url": "#",
     "github": "https://github.com/cshorg/websocket-chat",
     "color": "orange"
   },
