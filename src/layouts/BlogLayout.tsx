@@ -5,10 +5,10 @@ import Button from "../components/Button"
 
 const BlogLayout = () => {
   return (
-    <div className="flex flex-col w-full min-h-screen overflow-hidden text-white bg-zinc-100 dark:bg-zinc-950">
+    <div className="flex flex-col w-full min-h-screen overflow-hidden text-white font-inter bg-zinc-100 dark:bg-zinc-950">
       <main className="flex flex-col flex-grow mx-4 mt-4 lg:flex-row md:mt-6 md:mx-10 lg:ml-20 lg:mt-20 2xl:mx-36">
         <Link to="/">
-          <Button fullWidth={false} className="px-8 lg:m-2">
+          <Button fullWidth={false} className="px-8 lg:m-1">
             Back
           </Button>
         </Link>

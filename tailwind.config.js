@@ -5,7 +5,10 @@ module.exports = withTV({
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   darkMode: "selector",
   theme: {
-    extend: {}
+    extend: {},
+    fontFamily: {
+      inter: ["Inter"]
+    }
   },
   plugins: []
 })
