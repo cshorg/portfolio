@@ -1,6 +1,6 @@
 import React from "react"
 import Button from "./Button"
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 import { IconBrandGithub, IconOpenLink } from "@irsyadadl/paranoid"
 import { tv } from "tailwind-variants"
 
@@ -55,6 +55,7 @@ const Card: React.FC<CardProps> = ({
   className
 }) => {
   const rotationClass = getRandomRotationClass()
+  const navigate = useNavigate()
 
   return (
     <div className={`${card({ bgColor: color, className })} ${rotationClass}`}>
@@ -63,13 +64,39 @@ const Card: React.FC<CardProps> = ({
         {description}
       </p>
       <div className="flex items-center justify-between w-full gap-2 mt-4">
-        <Link className="w-full" to={route}>
-          <Button className="hover:underline">Read Me</Button>
-        </Link>
-        <Button size="icon" onClick={() => window.open(url)}>
+        <Button
+          className="hover:underline"
+          onClick={(e) => {
+            e.preventDefault()
+            navigate(route)
+            window.scrollTo({
+              top: 0,
+              behavior: "auto"
+            })
+          }}
+          onTouchStart={(e) => {
+            e.preventDefault()
+            navigate(route)
+            window.scrollTo({
+              top: 0,
+              behavior: "auto"
+            })
+          }}
+        >
+          Read Me
+        </Button>
+        <Button
+          size="icon"
+          onClick={() => window.open(url)}
+          onTouchStart={() => window.open(url)}
+        >
           <IconOpenLink width={18} />
         </Button>
-        <Button size="icon" onClick={() => window.open(github)}>
+        <Button
+          size="icon"
+          onClick={() => window.open(github)}
+          onTouchStart={() => window.open(github)}
+        >
           <IconBrandGithub width={18} />
         </Button>
       </div>

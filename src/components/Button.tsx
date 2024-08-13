@@ -24,7 +24,8 @@ type ButtonProps = VariantProps<typeof button> & {
   fullWidth?: boolean
   className?: string
   children: React.ReactNode
-  onClick?: () => void
+  onClick?: (e: any) => void
+  onTouchStart?: (e: any) => void
 }
 
 const Button: React.FC<ButtonProps> = ({
@@ -32,12 +33,14 @@ const Button: React.FC<ButtonProps> = ({
   size,
   fullWidth = true,
   onClick,
+  onTouchStart,
   className
 }) => {
   return (
     <button
       className={button({ size, fullWidth, className })}
       onClick={onClick}
+      onTouchStart={onTouchStart}
     >
       {children}
     </button>
