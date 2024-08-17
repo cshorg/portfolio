@@ -9,12 +9,13 @@ interface Image {
 
 const HeaderImages: React.FC = () => {
   return (
-    <div className="flex flex-wrap items-center gap-4 mt-4  lg:mt-6">
+    <div className="flex flex-wrap items-center gap-4 mt-4 lg:mt-6">
       {images.map((image: Image, index: number) => (
         <Tooltip label={image.imageName} position="bottom">
           <img
             key={index}
-            className="w-[20px] lg:w-[28px]"
+            width={24}
+            height={24}
             src={image.url}
             alt={image.imageName}
           />
