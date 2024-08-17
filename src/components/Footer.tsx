@@ -9,7 +9,10 @@ const Footer: React.FC<FooterProps> = ({ className = "" }) => {
     >
       <p className="dark:text-zinc-500 text-zinc-950">
         Created by{" "}
-        <a className="cursor-pointer dark:text-white hover:underline">
+        <a
+          href="https://x.com/cshorg1"
+          className="cursor-pointer dark:text-white hover:underline"
+        >
           (@cshorgx)
         </a>
       </p>
