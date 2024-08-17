@@ -38,6 +38,7 @@ const Button: React.FC<ButtonProps> = ({
 }) => {
   return (
     <button
+      aria-label={`${children}` || "icon-button"}
       className={button({ size, fullWidth, className })}
       onClick={onClick}
       onTouchStart={onTouchStart}
