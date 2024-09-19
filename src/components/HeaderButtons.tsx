@@ -61,7 +61,7 @@ const HeaderButtons = ({ handleTheme }: any) => {
         <IconMail width={18} />
         Contact Me
       </a>
-      <div className="w-[1px] h-7 bg-zinc-200 dark:bg-zinc-800 mx-1" />
+      <div className="w-[1px] h-7 bg-zinc-500 dark:bg-zinc-500 mx-1" />
       <Button size="icon" onClick={handleTheme}>
         <IconSun
           width={18}
