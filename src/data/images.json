@@ -46,5 +46,13 @@
   {
     "imageName": "Go",
     "url":"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg" 
+  },
+  {
+    "imageName": "Node",
+    "url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"
+  },
+  {
+    "imageName": "Mongodb",
+    "url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg"
   }
 ]
