@@ -10,7 +10,7 @@ const Footer: React.FC<FooterProps> = ({ className = "" }) => {
       <p className="dark:text-zinc-500 text-zinc-950">
         Created by{" "}
         <a
-          href="https://x.com/cshorg1"
+          href="https://x.com/cshorgx"
           className="cursor-pointer dark:text-white hover:underline"
         >
           (@cshorgx)
