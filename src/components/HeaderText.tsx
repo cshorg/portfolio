@@ -7,7 +7,7 @@ const HeaderText = () => {
       </span>
       , I'm a passionate{" "}
       <span className="mr-2 bg-zinc-950 text-zinc-50 dark:bg-zinc-50 dark:text-zinc-950">
-        Frontend Developer
+        Full Stack Developer
       </span>
       always looking to create something{" "}
       <span className="bg-zinc-950 text-zinc-50 dark:bg-zinc-50 dark:text-zinc-950">
