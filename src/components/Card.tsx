@@ -5,20 +5,13 @@ import { IconBrandGithub, IconOpenLink } from "@irsyadadl/paranoid"
 import { tv } from "tailwind-variants"
 
 const getRandomRotationClass = () => {
-  const rotations = [
-    "rotate-2",
-    "rotate-6",
-    "rotate-12",
-    "-rotate-2",
-    "-rotate-6",
-    "-rotate-12"
-  ]
+  const rotations = ["rotate-2", "rotate-6", "-rotate-2", "-rotate-6"]
   const randomIndex = Math.floor(Math.random() * rotations.length)
   return rotations[randomIndex]
 }
 
 const card = tv({
-  base: "border-[1px] z-50 md:cursor-move shadow-sm rounded-lg text-zinc-950 dark:text-zinc-950 border-zinc-950 dark:border-zinc-950 p-4 shadow-md",
+  base: "border-[1px] max-w-[320px] z-50 md:cursor-move shadow-lg rounded-[10px] text-zinc-950 dark:text-zinc-950 border-zinc-950 dark:border-zinc-950 p-5 shadow-md",
   variants: {
     bgColor: {
       green: "bg-green-400",
@@ -59,11 +52,11 @@ const Card: React.FC<CardProps> = ({
 
   return (
     <div className={`${card({ bgColor: color, className })} ${rotationClass}`}>
-      <h1 className="text-xl font-bold">{title}</h1>
-      <p className="mt-2 text-sm min-h-[100px] tracking-tight max-h-[100px] line-clamp-[5] overflow-y-hidden">
+      <h1 className="text-2xl font-extrabold">{title}</h1>
+      <p className="mt-[4px] font-semibold text-sm min-h-[100px] tracking-tight max-h-[100px] line-clamp-[5] overflow-y-hidden">
         {description}
       </p>
-      <div className="flex items-center justify-between w-full gap-2 mt-4">
+      <div className="flex items-center justify-between w-full gap-2 mt-5">
         <Button
           className="hover:underline"
           onClick={(e) => {

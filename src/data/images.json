@@ -52,6 +52,10 @@
     "url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"
   },
   {
+    "imageName": "Express",
+    "url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg"
+  },
+  {
     "imageName": "Mongodb",
     "url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg"
   }

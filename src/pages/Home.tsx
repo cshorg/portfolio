@@ -10,14 +10,14 @@ const getRandomPosition = (maxX: number, maxY: number) => {
 }
 
 const Home = () => {
-  const maxX = 300
+  const maxX = 200
   const maxY = 200
 
   return (
     <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
       {projects.map((project, index) => {
         const { x, y } =
-          typeof window !== "undefined" && window.innerWidth >= 1440
+          typeof window !== "undefined" && window.innerWidth >= 1200
             ? getRandomPosition(maxX, maxY)
             : { x: 0, y: 0 }
 

@@ -29,5 +29,12 @@
     "url": "https://www.npmjs.com/package/complib-ui",
     "github": "https://github.com/cshorg/complib-ui",
     "color": "indigo"
+  }, {
+    "title": "Fullstack Project",
+    "description": "Created this project to learn more of backend and how to properly structure a backend. Creating Error codes to use through out the project and creating proper error handling. Learning the correct way to manage a jwt session and keep it secure.",
+    "route": "/fullstack-project",
+    "url": "#",
+    "github": "https://github.com/cshorg/Fullstack-Project",
+    "color": "green"
   }
 ]

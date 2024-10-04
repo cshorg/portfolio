@@ -5,6 +5,7 @@ import Wordle from "./pages/Wordle"
 import TftForge from "./pages/TftForge"
 import Complib from "./pages/Complib"
 import GoWebsocket from "./pages/GoWebsocket"
+import FullstackProject from "./pages/FullstackProject"
 import BlogLayout from "./layouts/BlogLayout"
 
 function App({ handleTheme }: any) {
@@ -18,6 +19,7 @@ function App({ handleTheme }: any) {
         <Route path="/tft-forge" element={<TftForge />} />
         <Route path="/complib" element={<Complib />} />
         <Route path="/go-websocket" element={<GoWebsocket />} />
+        <Route path="/fullstack-project" element={<FullstackProject />} />
       </Route>
     </Routes>
   )
