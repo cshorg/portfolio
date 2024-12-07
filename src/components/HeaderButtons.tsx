@@ -2,7 +2,6 @@ import {
   IconBrandGithub,
   IconBrandLinkedin,
   IconBrandX,
-  IconFileDownload,
   IconMail,
   IconSun,
   IconMoon
