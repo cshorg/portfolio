@@ -1,5 +1,20 @@
 [
   {
+    "title": "Rune Rank",
+    "description": "Rune Rank is a website that gamified voting for a niche runescape community. Providing users with a leveling and reward system for voting and a leaderboard to see their community stats and blog posts.",
+    "route": "/rune-rank",
+    "url": "https://www.rune-rank.com/",
+    "color": "zinc"
+  },
+  {
+    "title": "Fullstack Project",
+    "description": "Created this project to learn more of backend and how to properly structure a backend. Creating Error codes to use through out the project and creating proper error handling. Learning the correct way to manage a jwt session and keep it secure.",
+    "route": "/fullstack-project",
+    "url": "#",
+    "github": "https://github.com/cshorg/Fullstack-Project",
+    "color": "green"
+  },
+  {
     "title": "Wordle Clone",
     "description": "Recreation of the popular web game Wordle. In this project I learned to utilize localstorage for storing wins and losses for returning users. I then learned to use eventListeners for key inputs to allow users to use keyboard strokes instead of clicking on the keyboard.",
     "route": "/wordle-clone",
@@ -29,20 +44,5 @@
     "url": "https://www.npmjs.com/package/complib-ui",
     "github": "https://github.com/cshorg/complib-ui",
     "color": "indigo"
-  },
-  {
-    "title": "Fullstack Project",
-    "description": "Created this project to learn more of backend and how to properly structure a backend. Creating Error codes to use through out the project and creating proper error handling. Learning the correct way to manage a jwt session and keep it secure.",
-    "route": "/fullstack-project",
-    "url": "#",
-    "github": "https://github.com/cshorg/Fullstack-Project",
-    "color": "green"
-  },
-  {
-    "title": "Rune Rank",
-    "description": "Rune Rank is a website that gamified voting for a niche runescape community. Providing users with a leveling and reward system for voting and a leaderboard to see their community stats and blog posts.",
-    "route": "/rune-rank",
-    "url": "https://www.rune-rank.com/",
-    "color": "zinc"
   }
 ]

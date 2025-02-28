@@ -21,7 +21,7 @@ const card = tv({
       red: 'bg-red-400',
       blue: 'bg-blue-400',
       sky: 'bg-sky-400',
-      zinc: 'bg-zinc-700'
+      zinc: 'bg-zinc-600'
     }
   },
   defaultVariants: {
