@@ -41,11 +41,11 @@
   },
   {
     "imageName": "Npm",
-    "url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg" 
+    "url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg"
   },
   {
     "imageName": "Go",
-    "url":"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg" 
+    "url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg"
   },
   {
     "imageName": "Node",
@@ -58,5 +58,17 @@
   {
     "imageName": "Mongodb",
     "url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg"
+  },
+  {
+    "imageName": "Cloudflare",
+    "url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cloudflare/cloudflare-original.svg"
+  },
+  {
+    "imageName": "Vercel",
+    "url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg"
+  },
+  {
+    "imageName": "Supabase",
+    "url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg"
   }
 ]

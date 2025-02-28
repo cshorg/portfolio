@@ -1,30 +1,31 @@
-import React from "react"
-import Button from "./Button"
-import { useNavigate } from "react-router-dom"
-import { IconBrandGithub, IconOpenLink } from "@irsyadadl/paranoid"
-import { tv } from "tailwind-variants"
+import React from 'react'
+import Button from './Button'
+import { useNavigate } from 'react-router-dom'
+import { IconBrandGithub, IconOpenLink } from '@irsyadadl/paranoid'
+import { tv } from 'tailwind-variants'
 
 const getRandomRotationClass = () => {
-  const rotations = ["rotate-2", "rotate-6", "-rotate-2", "-rotate-6"]
+  const rotations = ['rotate-2', 'rotate-6', '-rotate-2', '-rotate-6']
   const randomIndex = Math.floor(Math.random() * rotations.length)
   return rotations[randomIndex]
 }
 
 const card = tv({
-  base: "border-[1px] max-w-[320px] z-50 md:cursor-move shadow-lg rounded-[10px] text-zinc-950 dark:text-zinc-950 border-zinc-950 dark:border-zinc-950 p-5 shadow-md",
+  base: 'border-[1px] max-w-[320px] z-50 md:cursor-move shadow-lg rounded-[10px] text-zinc-950 dark:text-zinc-950 border-zinc-950 dark:border-zinc-950 p-5 shadow-md',
   variants: {
     bgColor: {
-      green: "bg-green-400",
-      indigo: "bg-indigo-400",
-      yellow: "bg-yellow-300",
-      orange: "bg-orange-300",
-      red: "bg-red-400",
-      blue: "bg-blue-400",
-      sky: "bg-sky-400"
+      green: 'bg-green-400',
+      indigo: 'bg-indigo-400',
+      yellow: 'bg-yellow-300',
+      orange: 'bg-orange-300',
+      red: 'bg-red-400',
+      blue: 'bg-blue-400',
+      sky: 'bg-sky-400',
+      zinc: 'bg-zinc-700'
     }
   },
   defaultVariants: {
-    bgColor: "green"
+    bgColor: 'green'
   }
 })
 
@@ -41,7 +42,7 @@ interface CardProps {
 const Card: React.FC<CardProps> = ({
   title,
   description,
-  route = "/",
+  route = '/',
   url,
   github,
   color,
@@ -52,19 +53,19 @@ const Card: React.FC<CardProps> = ({
 
   return (
     <div className={`${card({ bgColor: color, className })} ${rotationClass}`}>
-      <h1 className="text-2xl font-extrabold">{title}</h1>
-      <p className="mt-[4px] font-semibold text-sm min-h-[100px] tracking-tight max-h-[100px] line-clamp-[5] overflow-y-hidden">
+      <h1 className='text-2xl font-extrabold'>{title}</h1>
+      <p className='mt-[4px] font-semibold text-sm min-h-[100px] tracking-tight max-h-[100px] line-clamp-[5] overflow-y-hidden'>
         {description}
       </p>
-      <div className="flex items-center justify-between w-full gap-2 mt-5">
+      <div className='flex items-center justify-between w-full gap-2 mt-5'>
         <Button
-          className="hover:underline"
+          className='hover:underline'
           onClick={(e) => {
             e.preventDefault()
             navigate(route)
             window.scrollTo({
               top: 0,
-              behavior: "auto"
+              behavior: 'auto'
             })
           }}
           onTouchStart={(e) => {
@@ -72,7 +73,7 @@ const Card: React.FC<CardProps> = ({
             navigate(route)
             window.scrollTo({
               top: 0,
-              behavior: "auto"
+              behavior: 'auto'
             })
           }}
         >
@@ -80,7 +81,7 @@ const Card: React.FC<CardProps> = ({
         </Button>
         {url && (
           <Button
-            size="icon"
+            size='icon'
             onClick={() => window.open(url)}
             onTouchStart={() => window.open(url)}
           >
@@ -89,7 +90,7 @@ const Card: React.FC<CardProps> = ({
         )}
 
         <Button
-          size="icon"
+          size='icon'
           onClick={() => window.open(github)}
           onTouchStart={() => window.open(github)}
         >
